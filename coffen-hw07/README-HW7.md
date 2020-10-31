@@ -1,0 +1,6 @@
+Sarah Coffen
+https://www.youtube.com/watch?v=WEGeQvlxTQI&feature=youtu.be
+Used Penn State video: https://www.youtube.com/watch?v=5n8OtzqVOyg
+Used Multithreading example: https://www.geeksforgeeks.org/multithreading-in-cpp/
+Used A* structure from here: https://brilliant.org/wiki/a-star-search/
+Unfortunately, this most likely came down to a processing power vs. data structure vs. map resolution problem. As the map grows, despite the parallelization, the A* runs take longer and longer. The structures used contribute to this, despite allowing for concurrent access. The map resolution itself plays a big role since to account for the size of the robot and to generate paths, more and more checks needed to be made. Given enough time and more processing power than my laptop can provide, it would eventually reach the goals. Had I not realized the resolution was going to cause such an issue 40+ hours in, I would have reworked that, but at this point, I would rather turn in something than nothing at all.

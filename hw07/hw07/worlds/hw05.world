@@ -1,0 +1,1899 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- A ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- The Goal -->
+    <include>
+      <uri>model://checkerboard_plane</uri>
+      <name>goal</name>
+      <pose>20 0 0.01 0 0 0</pose>
+    </include>
+
+    <!-- Walls -->
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall0</name>
+      <pose>-22 -18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall1</name>
+      <pose>-22 -15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall2</name>
+      <pose>-22 -12 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall3</name>
+      <pose>-22 -9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall4</name>
+      <pose>-22 -6 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall5</name>
+      <pose>-22 -3 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall6</name>
+      <pose>-22 0 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall7</name>
+      <pose>-22 3 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall8</name>
+      <pose>-22 6 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall9</name>
+      <pose>-22 9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall10</name>
+      <pose>-22 12 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall11</name>
+      <pose>-22 15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall12</name>
+      <pose>-22 18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall13</name>
+      <pose>-20 -19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall14</name>
+      <pose>-20 19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall15</name>
+      <pose>-18 -18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall16</name>
+      <pose>-18 -15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall17</name>
+      <pose>-18 -12 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall18</name>
+      <pose>-18 -9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall19</name>
+      <pose>-18 -3 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall20</name>
+      <pose>-18 0 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall21</name>
+      <pose>-18 3 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall22</name>
+      <pose>-18 6 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall23</name>
+      <pose>-18 9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall24</name>
+      <pose>-16 14 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall25</name>
+      <pose>-18 15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall26</name>
+      <pose>-18 18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall27</name>
+      <pose>-16 -19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall28</name>
+      <pose>-16 19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall29</name>
+      <pose>-14 -18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall30</name>
+      <pose>-14 -15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall31</name>
+      <pose>-12 -10 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall32</name>
+      <pose>-14 -9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall33</name>
+      <pose>-14 -6 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall34</name>
+      <pose>-14 -3 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall35</name>
+      <pose>-14 0 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall36</name>
+      <pose>-14 6 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall37</name>
+      <pose>-14 9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall38</name>
+      <pose>-14 12 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall39</name>
+      <pose>-14 15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall40</name>
+      <pose>-14 18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall41</name>
+      <pose>-12 -19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall42</name>
+      <pose>-12 19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall43</name>
+      <pose>-10 -18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall44</name>
+      <pose>-10 -15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall45</name>
+      <pose>-10 -9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall46</name>
+      <pose>-10 -6 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall47</name>
+      <pose>-10 -3 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall48</name>
+      <pose>-10 0 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall49</name>
+      <pose>-10 3 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall50</name>
+      <pose>-8 8 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall51</name>
+      <pose>-10 9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall52</name>
+      <pose>-10 12 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall53</name>
+      <pose>-10 15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall54</name>
+      <pose>-10 18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall55</name>
+      <pose>-8 -19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall56</name>
+      <pose>-8 19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall57</name>
+      <pose>-6 -18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall58</name>
+      <pose>-6 -15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall59</name>
+      <pose>-6 -12 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall60</name>
+      <pose>-6 -9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall61</name>
+      <pose>-6 -6 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall62</name>
+      <pose>-4 -5 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall63</name>
+      <pose>-6 0 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall64</name>
+      <pose>-6 6 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall65</name>
+      <pose>-6 9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall66</name>
+      <pose>-6 12 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall67</name>
+      <pose>-6 15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall68</name>
+      <pose>-6 18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall69</name>
+      <pose>-4 -19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall70</name>
+      <pose>-4 19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall71</name>
+      <pose>-2 -18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall72</name>
+      <pose>-2 -15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall73</name>
+      <pose>-2 -12 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall74</name>
+      <pose>-2 -6 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall75</name>
+      <pose>-2 -3 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall76</name>
+      <pose>-2 0 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall77</name>
+      <pose>0 1 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall78</name>
+      <pose>-2 6 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall79</name>
+      <pose>-2 9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall80</name>
+      <pose>-2 12 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall81</name>
+      <pose>-2 15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall82</name>
+      <pose>-2 18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall83</name>
+      <pose>0 -19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall84</name>
+      <pose>0 19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall85</name>
+      <pose>2 -18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall86</name>
+      <pose>2 -15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall87</name>
+      <pose>2 -12 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall88</name>
+      <pose>2 -9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall89</name>
+      <pose>2 -6 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall90</name>
+      <pose>4 -5 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall91</name>
+      <pose>2 0 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall92</name>
+      <pose>2 3 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall93</name>
+      <pose>2 9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall94</name>
+      <pose>2 12 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall95</name>
+      <pose>2 15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall96</name>
+      <pose>2 18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall97</name>
+      <pose>4 -19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall98</name>
+      <pose>4 19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall99</name>
+      <pose>6 -18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall100</name>
+      <pose>6 -15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall101</name>
+      <pose>6 -12 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall102</name>
+      <pose>6 -9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall103</name>
+      <pose>6 -6 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall104</name>
+      <pose>6 0 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall105</name>
+      <pose>6 3 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall106</name>
+      <pose>6 6 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall107</name>
+      <pose>8 7 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall108</name>
+      <pose>6 12 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall109</name>
+      <pose>6 15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall110</name>
+      <pose>6 18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall111</name>
+      <pose>8 -19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall112</name>
+      <pose>8 19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall113</name>
+      <pose>10 -18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall114</name>
+      <pose>10 -15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall115</name>
+      <pose>10 -12 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall116</name>
+      <pose>10 -9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall117</name>
+      <pose>12 -4 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall118</name>
+      <pose>10 -3 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall119</name>
+      <pose>10 0 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall120</name>
+      <pose>10 3 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall121</name>
+      <pose>10 6 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall122</name>
+      <pose>10 9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall123</name>
+      <pose>10 15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall124</name>
+      <pose>10 18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall125</name>
+      <pose>12 -19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall126</name>
+      <pose>12 19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall127</name>
+      <pose>14 -18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall128</name>
+      <pose>14 -15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall129</name>
+      <pose>14 -12 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall130</name>
+      <pose>14 -6 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall131</name>
+      <pose>14 -3 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall132</name>
+      <pose>14 0 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall133</name>
+      <pose>16 1 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall134</name>
+      <pose>14 6 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall135</name>
+      <pose>14 9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall136</name>
+      <pose>14 12 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall137</name>
+      <pose>14 15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall138</name>
+      <pose>14 18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall139</name>
+      <pose>16 -19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall140</name>
+      <pose>16 19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall141</name>
+      <pose>18 -18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall142</name>
+      <pose>18 -15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall143</name>
+      <pose>18 -12 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall144</name>
+      <pose>18 -9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall145</name>
+      <pose>20 -4 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall146</name>
+      <pose>18 -3 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall147</name>
+      <pose>18 0 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall148</name>
+      <pose>18 3 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall149</name>
+      <pose>18 6 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall150</name>
+      <pose>18 9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall151</name>
+      <pose>18 15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall152</name>
+      <pose>18 18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall153</name>
+      <pose>20 -19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall154</name>
+      <pose>20 19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall155</name>
+      <pose>22 -18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall156</name>
+      <pose>22 -15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall157</name>
+      <pose>22 -12 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall158</name>
+      <pose>22 -6 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall159</name>
+      <pose>22 -3 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall160</name>
+      <pose>22 0 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall161</name>
+      <pose>22 3 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall162</name>
+      <pose>22 9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall163</name>
+      <pose>22 12 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall164</name>
+      <pose>22 15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall165</name>
+      <pose>22 18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall166</name>
+      <pose>24 -19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall167</name>
+      <pose>24 19 -2.0 0 0 0</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall168</name>
+      <pose>26 -18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall169</name>
+      <pose>26 -15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall170</name>
+      <pose>26 -12 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall171</name>
+      <pose>26 -9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall172</name>
+      <pose>26 -6 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall173</name>
+      <pose>26 -3 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall174</name>
+      <pose>26 0 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall175</name>
+      <pose>26 3 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall176</name>
+      <pose>26 6 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall177</name>
+      <pose>26 9 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall178</name>
+      <pose>26 12 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall179</name>
+      <pose>26 15 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+          
+    <include>
+      <uri>model://brick_box_3x1x3</uri>
+      <name>wall180</name>
+      <pose>26 18 -2.0 0 0 1.5707963267948966</pose>
+    </include>
+    
+        <model name='tankbot0'>
+      <pose frame=''>-20 0 0 0 -0 0</pose>
+      <link name='tankbot::chassis'>
+        <pose frame=''>0 0 0.135 0 -0 0</pose>
+        <inertial>
+          <pose frame=''>0.0465 0 0 0 -0 0</pose>
+          <mass>2</mass>
+          <inertia>
+            <ixx>0.0125927</ixx>
+            <iyy>0.0408542</iyy>
+            <izz>0.0438135</izz>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyz>0</iyz>
+          </inertia>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.465 0.216 0.17</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.465 0.216 0.17</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <link name='tankbot::wheel_fl'>
+        <pose frame=''>0.1395 0.142 0.05 -1.5708 -0.087266 0</pose>
+        <inertial>
+          <mass>0.25</mass>
+          <inertia>
+            <ixx>0.000189583</ixx>
+            <iyy>0.000189583</iyy>
+            <izz>0.0003125</izz>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyz>0</iyz>
+          </inertia>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <cylinder>
+              <radius>0.05</radius>
+              <length>0.04</length>
+            </cylinder>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='tankbot::wheel_fl'>
+          <geometry>
+            <cylinder>
+              <radius>0.05</radius>
+              <length>0.04</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Black</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='tankbot::wheel_fl_drive' type='revolute'>
+        <parent>tankbot::chassis</parent>
+        <child>tankbot::wheel_fl</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <use_parent_model_frame>0</use_parent_model_frame>
+          <limit>
+            <lower>-1e+16</lower>
+            <upper>1e+16</upper>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='tankbot::chain_l_up'>
+        <pose frame=''>0.0098 0.14 0.1 0 -0 0</pose>
+        <gravity>0</gravity>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.28 0.04 0.01</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.28 0.04 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Black</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <inertial>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+          <mass>1</mass>
+        </inertial>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <link name='tankbot::chain_r_up'>
+        <pose frame=''>0.0098 -0.14 0.1 0 -0 0</pose>
+        <gravity>0</gravity>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>0.28 0.04 0.01</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>0.28 0.04 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Black</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <inertial>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+          <mass>1</mass>
+        </inertial>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='tankbot::chain_up_joint' type='fixed'>
+        <parent>tankbot::chain_l_up</parent>
+        <child>tankbot::chain_r_up</child>
+      </joint>
+      <joint name='tankbot::chain_up_2_joint' type='fixed'>
+        <parent>tankbot::chassis</parent>
+        <child>tankbot::chain_l_up</child>
+      </joint>
+      <link name='tankbot::wheel_fr'>
+        <pose frame=''>0.1395 -0.142 0.05 -1.5708 -0.087266 0</pose>
+        <inertial>
+          <mass>0.25</mass>
+          <inertia>
+            <ixx>0.000189583</ixx>
+            <iyy>0.000189583</iyy>
+            <izz>0.0003125</izz>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyz>0</iyz>
+          </inertia>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <cylinder>
+              <radius>0.05</radius>
+              <length>0.04</length>
+            </cylinder>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <cylinder>
+              <radius>0.05</radius>
+              <length>0.04</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Black</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='tankbot::wheel_fr_drive' type='revolute'>
+        <parent>tankbot::chassis</parent>
+        <child>tankbot::wheel_fr</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <use_parent_model_frame>0</use_parent_model_frame>
+          <limit>
+            <lower>-1e+16</lower>
+            <upper>1e+16</upper>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='tankbot::wheel_rl'>
+        <pose frame=''>-0.1395 0.142 0.05 -1.5708 0 0</pose>
+        <inertial>
+          <mass>0.25</mass>
+          <inertia>
+            <ixx>0.000189583</ixx>
+            <iyy>0.000189583</iyy>
+            <izz>0.0003125</izz>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyz>0</iyz>
+          </inertia>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <cylinder>
+              <radius>0.05</radius>
+              <length>0.04</length>
+            </cylinder>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <cylinder>
+              <radius>0.05</radius>
+              <length>0.04</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Black</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='tankbot::wheel_rl_drive' type='revolute'>
+        <parent>tankbot::chassis</parent>
+        <child>tankbot::wheel_rl</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <use_parent_model_frame>0</use_parent_model_frame>
+          <limit>
+            <lower>-1e+16</lower>
+            <upper>1e+16</upper>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='tankbot::wheel_rr'>
+        <pose frame=''>-0.1395 -0.142 0.05 -1.5708 0 0</pose>
+        <inertial>
+          <mass>0.25</mass>
+          <inertia>
+            <ixx>0.000189583</ixx>
+            <iyy>0.000189583</iyy>
+            <izz>0.0003125</izz>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyz>0</iyz>
+          </inertia>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <cylinder>
+              <radius>0.05</radius>
+              <length>0.04</length>
+            </cylinder>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <cylinder>
+              <radius>0.05</radius>
+              <length>0.04</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Black</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='tankbot::wheel_rr_drive' type='revolute'>
+        <parent>tankbot::chassis</parent>
+        <child>tankbot::wheel_rr</child>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <use_parent_model_frame>0</use_parent_model_frame>
+          <limit>
+            <lower>-1e+16</lower>
+            <upper>1e+16</upper>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+        </axis>
+      </joint>
+      <link name='tankbot::lazstar::link'>
+        <inertial>
+          <mass>0.1</mass>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+        </inertial>
+        <visual name='visual'>
+          <geometry>
+            <cylinder>
+              <radius>0.04</radius>
+              <length>0.04</length>
+            </cylinder>
+          </geometry>
+        </visual>
+        <collision name='collision-base'>
+          <pose frame=''>0 0 -0.0145 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.05 0.05 0.041</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='collision-top'>
+          <pose frame=''>0 0 0.0205 0 -0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.021</radius>
+              <length>0.029</length>
+            </cylinder>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <sensor name='laser' type='ray'>
+          <pose frame=''>0.01 0 0.0175 0 -0 0</pose>
+          <ray>
+            <scan>
+              <horizontal>
+                <samples>7</samples>
+                <resolution>1</resolution>
+                <min_angle>-2.35619</min_angle>
+                <max_angle>2.35619</max_angle>
+              </horizontal>
+              <vertical>
+                <samples>1</samples>
+                <min_angle>0</min_angle>
+                <max_angle>0</max_angle>
+              </vertical>
+            </scan>
+            <range>
+              <min>0.2</min>
+              <max>2</max>
+              <resolution>0.2</resolution>
+            </range>
+          </ray>
+          <plugin name='laser' filename='libRayPlugin.so'/>
+          <always_on>1</always_on>
+          <update_rate>5</update_rate>
+          <visualize>1</visualize>
+        </sensor>
+        <pose frame=''>0 0 0.22 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='tankbot::lidar_joint' type='fixed'>
+        <child>tankbot::lazstar::link</child>
+        <parent>tankbot::chassis</parent>
+      </joint>
+      <plugin name='tankbot_control' filename='libtank_control_plugin.so'/>
+    </model>
+
+      <model name='tankbot0'>
+        <pose frame=''>-20.0003 -0.013662 0 -4e-06 -0 0.047363</pose>
+        <scale>1 1 1</scale>
+        <link name='tankbot::chain_l_up'>
+          <pose frame=''>-19.9972 0.126645 0.1 -5e-06 -0 0.047363</pose>
+          <velocity>2.6e-05 -0.000199 0.000215 0.000652 0.00155 -0.000148</velocity>
+          <acceleration>0.018301 -0.072403 -4.63942 0.385337 -0.226621 -0.020115</acceleration>
+          <wrench>0.018301 -0.072403 -4.63942 0 -0 0</wrench>
+        </link>
+        <link name='tankbot::chain_r_up'>
+          <pose frame=''>-19.9839 -0.153041 0.100001 -5e-06 -0 0.047363</pose>
+          <velocity>-1.6e-05 -0.000199 1.2e-05 0.000647 0.001549 -0.000148</velocity>
+          <acceleration>0.012351 -0.066576 -4.74414 0.364711 -0.220338 -0.020715</acceleration>
+          <wrench>0.012351 -0.066576 -4.74414 0 -0 0</wrench>
+        </link>
+        <link name='tankbot::chassis'>
+          <pose frame=''>-20.0003 -0.013662 0.135 -4e-06 -0 0.047363</pose>
+          <velocity>5.9e-05 -0.000222 0.000111 0.000508 0.001626 -0.000146</velocity>
+          <acceleration>0.007304 -0.088765 -4.82741 -1.63611 0.074978 -0.025262</acceleration>
+          <wrench>0.014608 -0.177529 -9.65481 0 -0 0</wrench>
+        </link>
+        <link name='tankbot::lazstar::link'>
+          <pose frame=''>-20.0003 -0.013662 0.22 -3e-06 -0 0.047363</pose>
+          <velocity>0.000215 -0.000243 0.000119 0.000211 0.001819 -0.000127</velocity>
+          <acceleration>0.014497 0.018416 -4.82755 -1.41586 0.080763 0.02402</acceleration>
+          <wrench>0.00145 0.001842 -0.482755 0 -0 0</wrench>
+        </link>
+        <link name='tankbot::wheel_fl'>
+          <pose frame=''>-19.8677 0.134783 0.05 -1.5708 -0.261427 0.047364</pose>
+          <velocity>-5.1e-05 -0.00017 -0.000136 -0.000494 -0.002091 -0.000163</velocity>
+          <acceleration>0.043585 0.01647 -5.82336 2.05867 -0.200236 -0.214969</acceleration>
+          <wrench>0.010896 0.004117 -1.45584 0 -0 0</wrench>
+        </link>
+        <link name='tankbot::wheel_fr'>
+          <pose frame=''>-19.8543 -0.148898 0.05 -1.5708 0.051453 0.047363</pose>
+          <velocity>-0.000115 -0.000208 0.000235 0.004176 -0.002247 -0.000138</velocity>
+          <acceleration>-0.076603 -0.120484 -3.54612 2.39867 -0.85183 -0.181866</acceleration>
+          <wrench>-0.019151 -0.030121 -0.886529 0 -0 0</wrench>
+        </link>
+        <link name='tankbot::wheel_rl'>
+          <pose frame=''>-20.1464 0.121574 0.05 -1.5708 -0.194901 0.047365</pose>
+          <velocity>-7.4e-05 -0.000126 0.000347 0.000984 -0.000537 -0.000203</velocity>
+          <acceleration>-0.042683 -0.171559 -5.00077 1.88607 0.089396 -0.30228</acceleration>
+          <wrench>-0.010671 -0.04289 -1.25019 0 -0 0</wrench>
+        </link>
+        <link name='tankbot::wheel_rr'>
+          <pose frame=''>-20.133 -0.162108 0.05 -1.5708 0.022305 0.047363</pose>
+          <velocity>-0.000124 -8.7e-05 0.000229 0.001658 -0.002395 -0.000191</velocity>
+          <acceleration>-0.001317 0.018359 -3.91514 -0.449318 0.022771 -0.267479</acceleration>
+          <wrench>-0.000329 0.00459 -0.978786 0 -0 0</wrench>
+        </link>
+      </model>
+
+    <!-- A testing model that includes the Velodyne sensor model
+    <model name="tankbot0">
+      <pose>-20 0 0 0 0 0</pose>
+
+      <include>
+        <uri>model://tankbot</uri>
+      </include>
+
+      <plugin name="tankbot_control" filename="libtank_control_plugin.so"/>
+    </model> -->
+
+  </world>
+</sdf>
+
